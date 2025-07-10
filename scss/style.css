@@ -59,7 +59,8 @@ footer {
 }
 
 .carousel-item img {
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
   height: 500px;
 }
 
@@ -73,6 +74,9 @@ form .form-control {
   background-color: #222;
   border: 1px solid #444;
   color: #fff;
+}
+form .form-control::-moz-placeholder {
+  color: #aaa;
 }
 form .form-control::placeholder {
   color: #aaa;
@@ -130,6 +134,4 @@ form .form-control::placeholder {
   .faq-box {
     flex: 1 1 100%;
   }
-}
-
-/*# sourceMappingURL=styles.css.map */
+}/*# sourceMappingURL=style.css.map */

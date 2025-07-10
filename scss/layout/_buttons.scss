@@ -1,0 +1,12 @@
+.btn {
+  background-color: $kawasaki-green;
+  border: none;
+  color: #000;
+  font-weight: bold;
+  @include transition(all $transition-smooth);
+
+  &:hover {
+    background-color: $kawasaki-green-dark;
+    color: #000;
+  }
+}

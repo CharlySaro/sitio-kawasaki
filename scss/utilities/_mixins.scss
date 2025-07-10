@@ -1,0 +1,15 @@
+@mixin transition($value...) {
+  transition: $value;
+}
+
+@mixin card-style($bg-color: $kawasaki-gray, $color: #f0f0f0) {
+  background-color: $bg-color;
+  border: 1px solid $card-border;
+  color: $color;
+}
+
+@mixin flex-column($gap: 2rem) {
+  display: flex;
+  flex-direction: column;
+  gap: $gap;
+}

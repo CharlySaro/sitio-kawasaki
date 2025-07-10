@@ -1,0 +1,50 @@
+.faq-container {
+  @include flex-column;
+}
+
+.faq-top {
+  width: 100%;
+  border: 1px solid #ccc;
+  padding: 1rem;
+  border-radius: 8px;
+  background-color: #f8f9fa;
+}
+
+.faq-bottom {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: space-between;
+
+  .faq-box {
+    flex: 1 1 calc(33.333% - 1rem);
+    border: 1px solid $card-border;
+    padding: 1.5rem;
+    border-radius: 8px;
+    background-color: #000;
+    color: #fff;
+    @include transition(transform 0.3s);
+
+    &:hover {
+      transform: scale(1.03);
+    }
+
+    h3 {
+      display: flex;
+      align-items: center;
+      font-size: 1.2rem;
+      margin-bottom: 1rem;
+
+      i {
+        margin-right: 0.5rem;
+        color: $faq-icon-color;
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .faq-box {
+    flex: 1 1 100%;
+  }
+}

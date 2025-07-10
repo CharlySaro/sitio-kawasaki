@@ -1,0 +1,12 @@
+.carousel-item img {
+  object-fit: cover;
+  height: 500px;
+}
+
+#banner {
+  .carousel-caption {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 1rem;
+    border-radius: 10px;
+  }
+}

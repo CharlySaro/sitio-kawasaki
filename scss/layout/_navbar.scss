@@ -1,0 +1,14 @@
+.navbar {
+  background-color: $kawasaki-dark !important;
+
+  .navbar-brand,
+  .nav-link {
+    color: $kawasaki-green !important;
+    font-weight: bold;
+
+    &:hover {
+      text-decoration: underline;
+      color: $kawasaki-white !important;
+    }
+  }
+}
