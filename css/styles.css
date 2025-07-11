@@ -10,6 +10,20 @@ h1, h2, h3, h4 {
   font-weight: bold;
 }
 
+h6 {
+  color: #00e676;
+}
+
+.pt1 {
+  font-size: 16px;
+  color: #ffffff;
+}
+
+.lt1 {
+  font-size: 16px;
+  color: #00e676;
+}
+
 .navbar {
   background-color: #0f0f0f !important;
 }
@@ -31,7 +45,7 @@ h1, h2, h3, h4 {
   transition: transform 0.2s ease, box-shadow 0.3s ease;
 }
 .card:hover {
-  transform: scale(1.02);
+  transform: scale(1);
   box-shadow: 0 0 10px #00e676;
 }
 
@@ -45,11 +59,6 @@ h1, h2, h3, h4 {
 .btn:hover {
   background-color: #00c853;
   color: #000;
-}
-
-h1, h2, h3, h4 {
-  color: var(--kawasaki-green);
-  font-weight: bold;
 }
 
 footer {
@@ -91,10 +100,10 @@ form .form-control::placeholder {
 
 .faq-top {
   width: 100%;
-  border: 1px solid #ccc;
+  border: 1px solid #00e676;
   padding: 1rem;
   border-radius: 8px;
-  background-color: #f8f9fa;
+  background-color: #0a1200;
 }
 
 .faq-bottom {

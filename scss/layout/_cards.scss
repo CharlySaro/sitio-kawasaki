@@ -3,7 +3,7 @@
   @include transition(transform $transition-fast, box-shadow $transition-smooth);
 
   &:hover {
-    transform: scale(1.02);
+    transform: scale(1.00);
     box-shadow: 0 0 10px $kawasaki-green;
   }
 }
